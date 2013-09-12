@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cluster_id: MyString
+  stackup_id: MyString
+  name: MyString
+  imageUrl: MyString
+  description: MyString
+
+two:
+  cluster_id: MyString
+  stackup_id: MyString
+  name: MyString
+  imageUrl: MyString
+  description: MyString

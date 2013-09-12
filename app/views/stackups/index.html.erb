@@ -1,0 +1,25 @@
+<h1>Listing stackups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stackups.each do |stackup| %>
+      <tr>
+        <td><%= link_to 'Show', stackup %></td>
+        <td><%= link_to 'Edit', edit_stackup_path(stackup) %></td>
+        <td><%= link_to 'Destroy', stackup, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Stackup', new_stackup_path %>

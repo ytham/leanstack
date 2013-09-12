@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cluster:</strong>
+  <%= @service.cluster_id %>
+</p>
+
+<p>
+  <strong>Stackup:</strong>
+  <%= @service.stackup_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @service.name %>
+</p>
+
+<p>
+  <strong>Imageurl:</strong>
+  <%= @service.imageUrl %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @service.description %>
+</p>
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>
